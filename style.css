@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: grape nuts ;
+}
+
+h1 {
+    text-align: center;
+    background-color: grey;
+    color: #fff;
+    padding: 30px;
+}
+
+ul {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    width: 200%;
+    padding: 15px;
+    color: #fff
+}
+
+li {
+    display: inline-flex;
+    
+}
+
+nav ul {
+    color: black;
+    margin: 0;
+    font-size: large;
+    display: flexbox;
+    background-color: lightgray;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    left: 800px;
+   
+}
+
+iframe {
+    width: 250px;
+    height: 300px;
+    right: 50px;
+    position: relative;
+    left: 800px;
+}
+
+li :hover{
+    background-color: red;
+
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #444;
+    margin: 50px 30px;
+    justify-content: center;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px;
+}
+
+.imagen-formulario {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+}
+
+.imagen-formulario img {
+   
+    
+    background-color: #fff;
+    padding: 20px;
+}
+
+form textarea {
+    min-height: 150px;
+    resize: none;
+}
